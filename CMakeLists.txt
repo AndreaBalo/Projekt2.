@@ -1,6 +1,6 @@
-# cmake_minimum_required(VERSION <specify CMake version here>)
-project(Projekt2 C)
+cmake_minimum_required(VERSION 3.17)
+project(lab10 C)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD 11)
 
-add_executable(Projekt2 main.c)
+add_executable(lab10 main.c Hajokirandulas.c Hajokirandulas.h)
