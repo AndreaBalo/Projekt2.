@@ -17,7 +17,7 @@ int main() {
         printf("Ha foglalni szeretne nyomja meg az egyes gombot! \n");
         printf("Ha foglalast szeretne torolni nyomja meg az kettes gombot! \n");
         printf("A foglalassal kapcsolatos informaciokert nyomja meg a harmas gombot! \n");
-        printf("Ka ki szeretne lepni nyomja meg a negyes gombot! \n");
+        printf("Ha ki szeretne lepni nyomja meg a negyes gombot! \n");
         scanf("%i",&press);
         switch (press)
         {
